@@ -1,0 +1,25 @@
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  /* Optional progress bar styling */
+  .progress-bar {
+    width: 80%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    height: 20px;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    width: 0%; /* This will be controlled by inline styles based on percentage */
+    background-color: #3498db;
+    border-radius: 8px;
+  }

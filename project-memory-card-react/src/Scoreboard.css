@@ -1,0 +1,15 @@
+.scoreboard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make it span the full width of its container */
+    background-color: #333; /* Give it a background color for visibility */
+    color: white; /* Set text color for visibility against the dark background */
+    padding: 10px; /* Add some padding for spacing */
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for some depth */
+    z-index: 10; /* Place it above other content if needed */
+  }
+  
+  .scoreboard h1, .scoreboard h3 {
+    margin: 0;
+  }
